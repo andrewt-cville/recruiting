@@ -6,6 +6,7 @@
          "conference": ["bigten", "acc"],
          "247":"maryland",
          "rivals":"maryland",
+         "rivalsDisplay":"Maryland",
          "wikipedia":"",
          "cfb-ref":"maryland",
          "cfb-db":""
@@ -17,6 +18,7 @@
         "conference": ["bigten"],
         "247":"illinois",
         "rivals":"illinois",
+        "rivalsDisplay":"Illinois",
         "wikipedia":"",
         "cfb-ref":"illinois",
         "cfb-db":""
@@ -28,6 +30,7 @@
         "conference": ["bigten"],
         "247":"indiana",
         "rivals":"indiana",
+        "rivalsDisplay":"Indiana",
         "wikipedia":"",
         "cfb-ref":"indiana",
         "cfb-db":""
@@ -39,6 +42,7 @@
         "conference": ["bigten"],
         "247":"iowa",
         "rivals":"iowa",
+        "rivalsDisplay":"Iowa",
         "wikipedia":"",
         "cfb-ref":"iowa",
         "cfb-db":""
@@ -50,6 +54,7 @@
         "conference": ["bigten"],
         "247":"michigan",
         "rivals":"michigan",
+        "rivalsDisplay":"Michigan",
         "wikipedia":"",
         "cfb-ref":"michigan",
         "cfb-db":""
@@ -61,6 +66,7 @@
         "conference": ["bigten"],
         "247":"michigan-state",
         "rivals":"michiganstate",
+        "rivalsDisplay":"Michigan State",
         "wikipedia":"",
         "cfb-ref":"michigan state",
         "cfb-db":""
@@ -72,6 +78,7 @@
         "conference": ["bigten"],
         "247":"minnesota",
         "rivals":"minnesota",
+        "rivalsDisplay": "Minnesota",
         "wikipedia":"",
         "cfb-ref":"minnesota",
         "cfb-db":""
@@ -83,6 +90,7 @@
         "conference": ["bigten", "bigtwelve"],
         "247":"nebraska",
         "rivals":"nebraska",
+        "rivalsDisplay":"Nebraska",
         "wikipedia":"",
         "cfb-ref":"nebraska",
         "cfb-db":""
@@ -94,6 +102,7 @@
         "conference": ["bigten"],
         "247":"northwestern",
         "rivals":"northwestern",
+        "rivalsDisplay":"Northwestern",
         "wikipedia":"",
         "cfb-ref":"northwestern",
         "cfb-db":""
@@ -105,6 +114,7 @@
         "conference": ["bigten"],
         "247":"ohio-state",
         "rivals":"ohiostate",
+        "rivalsDisplay":"Ohio State",
         "wikipedia":"",
         "cfb-ref":"ohio state",
         "cfb-db":""
@@ -112,10 +122,11 @@
     {
         "id":"penn-state",
         "displayname":"Pennslyvannia State",
-        "nickname" : "Buckeyes",
+        "nickname" : "Nittany Lions",
         "conference": ["bigten"],
         "247":"penn-state",
         "rivals":"bwi",
+        "rivalsDisplay":"Penn State",
         "wikipedia":"",
         "cfb-ref":"penn state",
         "cfb-db":""
@@ -127,6 +138,7 @@
         "conference": ["bigten"],
         "247":"purdue",
         "rivals":"purdue",
+        "rivalsDisplay":"Purdue",
         "wikipedia":"",
         "cfb-ref":"purdue",
         "cfb-db":""
@@ -138,6 +150,7 @@
         "conference": ["bigten", "bigeast"],
         "247":"rutgers",
         "rivals":"rutgers",
+        "rivalsDisplay":"Rutgers",
         "wikipedia":"",
         "cfb-ref":"rutgers",
         "cfb-db":""
@@ -149,6 +162,7 @@
         "conference": ["bigten"],
         "247":"wisconsin",
         "rivals":"wisconsin",
+        "rivalsDisplay":"Wisconsin",
         "wikipedia":"",
         "cfb-ref":"wisconsin",
         "cfb-db":""
@@ -160,6 +174,7 @@
         "conference": ["sec"],
         "247":"alabama",
         "rivals":"alabama",
+        "rivalsDisplay":"Alabama",
         "wikipedia":"",
         "cfb-ref":"alabama",
         "cfb-db":""
@@ -171,6 +186,7 @@
         "conference": ["sec"],
         "247":"arkansas",
         "rivals":"arkansas",
+        "rivalsDisplay":"Arkansas",
         "wikipedia":"",
         "cfb-ref":"arkansas",
         "cfb-db":""
@@ -182,6 +198,7 @@
         "conference": ["sec"],
         "247":"auburn",
         "rivals":"auburn",
+        "rivalsDisplay":"Auburn",
         "wikipedia":"",
         "cfb-ref":"auburn",
         "cfb-db":""
@@ -193,6 +210,7 @@
         "conference": ["sec"],
         "247":"florida",
         "rivals":"florida",
+        "rivalsDisplay":"Florida",
         "wikipedia":"",
         "cfb-ref":"florida",
         "cfb-db":""
@@ -204,6 +222,7 @@
         "conference": ["sec"],
         "247":"georgia",
         "rivals":"uga",
+        "rivalsDisplay":"Georgia",
         "wikipedia":"",
         "cfb-ref":"georgia",
         "cfb-db":""
@@ -215,6 +234,7 @@
         "conference": ["sec"],
         "247":"kentucky",
         "rivals":"kentucky",
+        "rivalsDisplay":"Kentucky",
         "wikipedia":"",
         "cfb-ref":"kentucky",
         "cfb-db":""
@@ -226,6 +246,7 @@
         "conference": ["sec"],
         "247":"lsu",
         "rivals":"lsu",
+        "rivalsDisplay":"Louisiana State",
         "wikipedia":"",
         "cfb-ref":"louisiana state",
         "cfb-db":""
@@ -237,6 +258,7 @@
         "conference": ["sec"],
         "247":"ole-miss",
         "rivals":"olemiss",
+        "rivalsDisplay":"Mississippi",
         "wikipedia":"",
         "cfb-ref":"mississippi",
         "cfb-db":""
@@ -248,6 +270,7 @@
         "conference": ["sec"],
         "247":"mississippi-state",
         "rivals":"mississippistate",
+        "rivalsDisplay":"Mississippi St",
         "wikipedia":"",
         "cfb-ref":"mississippi state",
         "cfb-db":""
@@ -259,6 +282,7 @@
         "conference": ["sec", "bigtwelve"],
         "247":"missouri",
         "rivals":"missouri",
+        "rivalsDisplay":"Missouri",
         "wikipedia":"",
         "cfb-ref":"missouri",
         "cfb-db":""
@@ -270,6 +294,7 @@
         "conference": ["sec"],
         "247":"south-carolina",
         "rivals":"southcarolina",
+        "rivalsDisplay":"South Carolina",
         "wikipedia":"",
         "cfb-ref":"south carolina",
         "cfb-db":""
@@ -281,6 +306,7 @@
         "conference": ["sec"],
         "247":"tennessee",
         "rivals":"tennessee",
+        "rivalsDisplay":"Tennessee",
         "wikipedia":"",
         "cfb-ref":"tennessee",
         "cfb-db":""
@@ -292,6 +318,7 @@
         "conference": ["sec", "bigtwelve"],
         "247":"texas-am",
         "rivals":"tamu",
+        "rivalsDisplay":"Texas A&M",
         "wikipedia":"",
         "cfb-ref":"texas a&m",
         "cfb-db":""
@@ -303,6 +330,7 @@
         "conference": ["sec"],
         "247":"vanderbilt",
         "rivals":"vanderbilt",
+        "rivalsDisplay":"Vanderbilt",
         "wikipedia":"",
         "cfb-ref":"vanderbilt",
         "cfb-db":""
@@ -314,17 +342,7 @@
         "conference": ["bigtwelve"],
         "247":"baylor",
         "rivals":"baylor",
-        "wikipedia":"",
-        "cfb-ref":"baylor",
-        "cfb-db":""
-    },
-    {
-        "id":"baylor",
-        "displayname":"Baylor",
-        "nickname" : "Bears",
-        "conference": ["bigtwelve"],
-        "247":"baylor",
-        "rivals":"baylor",
+        "rivalsDisplay":"Baylor",
         "wikipedia":"",
         "cfb-ref":"baylor",
         "cfb-db":""
@@ -336,6 +354,7 @@
         "conference": ["bigtwelve"],
         "247":"iowa-state",
         "rivals":"iowastate",
+        "rivalsDisplay":"Iowa State",
         "wikipedia":"",
         "cfb-ref":"iowa state",
         "cfb-db":""
@@ -347,6 +366,7 @@
         "conference": ["bigtwelve"],
         "247":"kansas",
         "rivals":"kansas",
+        "rivalsDisplay":"Kansas",
         "wikipedia":"",
         "cfb-ref":"kansas",
         "cfb-db":""
@@ -358,6 +378,7 @@
         "conference": ["bigtwelve"],
         "247":"kansas-state",
         "rivals":"kansasstate",
+        "rivalsDisplay":"Kansas State",
         "wikipedia":"",
         "cfb-ref":"kansas state",
         "cfb-db":""
@@ -369,6 +390,7 @@
         "conference": ["bigtwelve"],
         "247":"oklahoma",
         "rivals":"oklahoma",
+        "rivalsDisplay":"Oklahoma",
         "wikipedia":"",
         "cfb-ref":"oklahoma",
         "cfb-db":""
@@ -380,6 +402,7 @@
         "conference": ["bigtwelve"],
         "247":"oklahoma-state",
         "rivals":"oklahomastate",
+        "rivalsDisplay":"Oklahoma State",
         "wikipedia":"",
         "cfb-ref":"oklahoma state",
         "cfb-db":""
@@ -391,6 +414,7 @@
         "conference": ["bigtwelve"],
         "247":"tcu",
         "rivals":"tcu",
+        "rivalsDisplay":"TCU",
         "wikipedia":"",
         "cfb-ref":"Texas Christian",
         "cfb-db":""
@@ -402,6 +426,7 @@
         "conference": ["bigtwelve"],
         "247":"texas",
         "rivals":"texas",
+        "rivalsDisplay":"Texas",
         "wikipedia":"",
         "cfb-ref":"texas",
         "cfb-db":""
@@ -413,6 +438,7 @@
         "conference": ["bigtwelve"],
         "247":"texas-tech",
         "rivals":"texastech",
+        "rivalsDisplay":"Texas Tech",
         "wikipedia":"",
         "cfb-ref":"texas tech",
         "cfb-db":""
@@ -424,6 +450,7 @@
         "conference": ["bigtwelve", "bigeast"],
         "247":"west-virginia",
         "rivals":"westvirginia",
+        "rivalsDisplay":"West Virginia",
         "wikipedia":"",
         "cfb-ref":"west virginia",
         "cfb-db":""
