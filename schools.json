@@ -312,7 +312,7 @@
         "cfb-db":""
     },
     {
-        "id":"texas-a&m",
+        "id":"texas-am",
         "displayname":"Texas A&M",
         "nickname" : "Aggies",
         "conference": ["sec", "bigtwelve"],
