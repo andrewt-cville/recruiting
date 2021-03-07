@@ -2,4 +2,5 @@
 .ipynb_checkpoints/**
 html/**
 process_scrapes/.DS_Store
-.DS_Store
+*.DS_Store
+*.iCloud
