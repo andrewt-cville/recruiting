@@ -6,3 +6,7 @@ process_scrapes/.ipynb_checkpoints
 scraped_scripts/.ipynb_checkpoints
 *.DS_Store
 *.iCloud
+.DS_Store
+process_scrapes/.DS_Store
+scraped_scripts/.DS_Store
+scraped_scripts/.DS_Store
