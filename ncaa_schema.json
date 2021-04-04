@@ -44,5 +44,51 @@
                     "roster" : "http://stats.ncaa.org/team/392/roster/15280"
                 }
             ]
+    },
+    {
+        "team" :"minnesota",
+        "data" : 
+            [
+                {
+                    "year" : "2013",
+                    "teamOverview" : "http://stats.ncaa.org/teams/62733?utf8=✓&year_id=62733&sport_id=499562&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "http://stats.ncaa.org/team/428/roster/11520"
+                },
+                {
+                    "year" : "2014",
+                    "teamOverview" : "http://stats.ncaa.org/teams/83603?utf8=✓&year_id=83603&sport_id=62733&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "http://stats.ncaa.org/team/428/roster/11980"
+                },
+                {
+                    "year" : "2015",
+                    "teamOverview" : "http://stats.ncaa.org/teams/19665?utf8=✓&year_id=19665&sport_id=83603&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "http://stats.ncaa.org/team/428/roster/12240"
+                },
+                {
+                    "year" : "2016",
+                    "teamOverview" : "http://stats.ncaa.org/teams/66631?utf8=✓&year_id=66631&sport_id=19665&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "http://stats.ncaa.org/team/428/roster/12424"
+                },
+                {
+                    "year" : "2017",
+                    "teamOverview" : "https://stats.ncaa.org/teams/113585?utf8=✓&year_id=113585&sport_id=499570&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "https://stats.ncaa.org/team/428/roster/12623"
+                },
+                {
+                    "year" : "2018",
+                    "teamOverview" : "https://stats.ncaa.org/teams/449843?utf8=✓&year_id=449843&sport_id=478049&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "http://stats.ncaa.org/team/428/roster/14280"
+                },
+                {
+                    "year" : "2019",
+                    "teamOverview" : "https://stats.ncaa.org/teams/478049?utf8=✓&year_id=478049&sport_id=499570&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "https://stats.ncaa.org/team/428/roster/14900"
+                },
+                {
+                    "year" : "2020",
+                    "teamOverview" : "https://stats.ncaa.org/teams/499570?utf8=✓&year_id=499570&sport_id=449843&commit=Submit&org_sport_name=&org_id=",
+                    "roster" : "https://stats.ncaa.org/team/428/roster/15280"
+                }
+            ]
     }
 ]

@@ -9,7 +9,8 @@
          "rivalsDisplay":"Maryland",
          "wikipedia":"",
          "cfb-ref":"maryland",
-         "cfb-db":""
+         "cfb-db":"",
+         "ncaa":"392"
     },
     {
         "id":"illinois",
@@ -21,7 +22,8 @@
         "rivalsDisplay":"Illinois",
         "wikipedia":"",
         "cfb-ref":"illinois",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"301"
    },
    {
         "id":"indiana",
@@ -33,7 +35,8 @@
         "rivalsDisplay":"Indiana",
         "wikipedia":"",
         "cfb-ref":"indiana",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"306"
     },
     {
         "id":"iowa",
@@ -45,7 +48,8 @@
         "rivalsDisplay":"Iowa",
         "wikipedia":"",
         "cfb-ref":"iowa",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"312"
     },
     {
         "id":"michigan",
@@ -57,7 +61,8 @@
         "rivalsDisplay":"Michigan",
         "wikipedia":"",
         "cfb-ref":"michigan",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"418"
     },
     {
         "id":"michigan-state",
@@ -69,7 +74,8 @@
         "rivalsDisplay":"Michigan State",
         "wikipedia":"",
         "cfb-ref":"michigan state",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"416"
     },
     {
         "id":"minnesota",
@@ -81,7 +87,8 @@
         "rivalsDisplay": "Minnesota",
         "wikipedia":"",
         "cfb-ref":"minnesota",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"428"
     },
     {
         "id":"nebraska",
@@ -105,7 +112,8 @@
         "rivalsDisplay":"Northwestern",
         "wikipedia":"",
         "cfb-ref":"northwestern",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"463"
     },
     {
         "id":"ohio-state",
@@ -117,7 +125,8 @@
         "rivalsDisplay":"Ohio State",
         "wikipedia":"",
         "cfb-ref":"ohio state",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"518"
     },
     {
         "id":"penn-state",
@@ -129,7 +138,8 @@
         "rivalsDisplay":"Penn State",
         "wikipedia":"",
         "cfb-ref":"penn state",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"539"
     },
     {
         "id":"purdue",
@@ -141,7 +151,8 @@
         "rivalsDisplay":"Purdue",
         "wikipedia":"",
         "cfb-ref":"purdue",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"559"
     },
     {
         "id":"rutgers",
@@ -153,7 +164,8 @@
         "rivalsDisplay":"Rutgers",
         "wikipedia":"",
         "cfb-ref":"rutgers",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"587"
     },
     {
         "id":"wisconsin",
@@ -165,7 +177,8 @@
         "rivalsDisplay":"Wisconsin",
         "wikipedia":"",
         "cfb-ref":"wisconsin",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"796"
     },
     {
         "id":"alabama",
@@ -177,7 +190,8 @@
         "rivalsDisplay":"Alabama",
         "wikipedia":"",
         "cfb-ref":"alabama",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"8"
     },
     {
         "id":"arkansas",
@@ -189,7 +203,8 @@
         "rivalsDisplay":"Arkansas",
         "wikipedia":"",
         "cfb-ref":"arkansas",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"31"
     },
     {
         "id":"auburn",
@@ -201,7 +216,8 @@
         "rivalsDisplay":"Auburn",
         "wikipedia":"",
         "cfb-ref":"auburn",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"37"
     },
     {
         "id":"florida",
@@ -213,7 +229,8 @@
         "rivalsDisplay":"Florida",
         "wikipedia":"",
         "cfb-ref":"florida",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"235"
     },
     {
         "id":"georgia",
@@ -225,7 +242,8 @@
         "rivalsDisplay":"Georgia",
         "wikipedia":"",
         "cfb-ref":"georgia",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"257"
     },
     {
         "id":"kentucky",
@@ -237,7 +255,8 @@
         "rivalsDisplay":"Kentucky",
         "wikipedia":"",
         "cfb-ref":"kentucky",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"334"
     },
     {
         "id":"lsu",
@@ -249,7 +268,8 @@
         "rivalsDisplay":"Louisiana State",
         "wikipedia":"",
         "cfb-ref":"louisiana state",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"365"
     },
     {
         "id":"ole-miss",
@@ -261,7 +281,8 @@
         "rivalsDisplay":"Mississippi",
         "wikipedia":"",
         "cfb-ref":"mississippi",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"433"
     },
     {
         "id":"mississippi-state",
@@ -273,7 +294,8 @@
         "rivalsDisplay":"Mississippi St",
         "wikipedia":"",
         "cfb-ref":"mississippi state",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"430"
     },
     {
         "id":"missouri",
@@ -285,7 +307,8 @@
         "rivalsDisplay":"Missouri",
         "wikipedia":"",
         "cfb-ref":"missouri",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"434"
     },
     {
         "id":"south-carolina",
@@ -297,7 +320,8 @@
         "rivalsDisplay":"South Carolina",
         "wikipedia":"",
         "cfb-ref":"south carolina",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"648"
     },
     {
         "id":"tennessee",
@@ -309,7 +333,8 @@
         "rivalsDisplay":"Tennessee",
         "wikipedia":"",
         "cfb-ref":"tennessee",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"694"
     },
     {
         "id":"texas-am",
@@ -321,7 +346,8 @@
         "rivalsDisplay":"Texas A&M",
         "wikipedia":"",
         "cfb-ref":"texas a&m",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"697"
     },
     {
         "id":"vanderbilt",
@@ -333,7 +359,8 @@
         "rivalsDisplay":"Vanderbilt",
         "wikipedia":"",
         "cfb-ref":"vanderbilt",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"736"
     },
     {
         "id":"baylor",
@@ -345,7 +372,8 @@
         "rivalsDisplay":"Baylor",
         "wikipedia":"",
         "cfb-ref":"baylor",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"522"
     },
     {
         "id":"iowa-state",
@@ -357,7 +385,8 @@
         "rivalsDisplay":"Iowa State",
         "wikipedia":"",
         "cfb-ref":"iowa state",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"311"
     },
     {
         "id":"kansas",
@@ -369,7 +398,8 @@
         "rivalsDisplay":"Kansas",
         "wikipedia":"",
         "cfb-ref":"kansas",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"328"
     },
     {
         "id":"kansas-state",
@@ -393,7 +423,8 @@
         "rivalsDisplay":"Oklahoma",
         "wikipedia":"",
         "cfb-ref":"oklahoma",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"327"
     },
     {
         "id":"oklahoma-state",
@@ -405,7 +436,8 @@
         "rivalsDisplay":"Oklahoma State",
         "wikipedia":"",
         "cfb-ref":"oklahoma state",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"521"
     },
     {
         "id":"tcu",
@@ -417,7 +449,8 @@
         "rivalsDisplay":"TCU",
         "wikipedia":"",
         "cfb-ref":"Texas Christian",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"698"
     },
     {
         "id":"texas",
@@ -429,7 +462,8 @@
         "rivalsDisplay":"Texas",
         "wikipedia":"",
         "cfb-ref":"texas",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"703"
     },
     {
         "id":"texas-tech",
@@ -441,7 +475,8 @@
         "rivalsDisplay":"Texas Tech",
         "wikipedia":"",
         "cfb-ref":"texas tech",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"700"
     },
     {
         "id":"west-virginia",
@@ -453,6 +488,7 @@
         "rivalsDisplay":"West Virginia",
         "wikipedia":"",
         "cfb-ref":"west virginia",
-        "cfb-db":""
+        "cfb-db":"",
+        "ncaa":"768"
     }
 ]
