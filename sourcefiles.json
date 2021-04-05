@@ -29,6 +29,10 @@
     "nflData" :
         [
             "nfldraft.json"
+        ],
+    "ncaa" :
+        [
+            "ncaa.json"
         ]
     
 }

@@ -28,5 +28,10 @@
         [
             "playerName", 
             "school"
+        ],
+    "ncaa" :
+        [
+            "name",
+            "team"
         ]
 }

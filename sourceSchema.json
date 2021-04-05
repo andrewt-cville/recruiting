@@ -59,5 +59,13 @@
             "position", 
             "school", 
             "gamesPlayed"
+        ],
+    "ncaa" :
+        [
+            "name",
+            "team",
+            "gamesPlayed",
+            "gamesStarted",
+            "year"
         ]
 }
