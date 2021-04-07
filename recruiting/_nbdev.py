@@ -4,7 +4,7 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {}
 
-modules = ["None.py"]
+modules = ["AllAmerican.py"]
 
 doc_url = "https://andrewt-cville.github.io/recruiting/"
 
