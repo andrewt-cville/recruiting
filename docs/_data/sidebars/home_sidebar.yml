@@ -10,8 +10,11 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
+      title: Get & Process All American data from Wikipedia
+      url: AllAmericanNotebook.html
+    - output: web,pdf
       title: Title
-      url: SummarizeRivalsData.html
+      url: Summarize.Rivals.html
     output: web
     title: recruiting
   output: web
