@@ -60,5 +60,7 @@ sidebars:
 - home_sidebar
 permalink: pretty
 
-theme: jekyll-theme-slate
-baseurl: /recruiting/
+plugins:
+    - jekyll-remote-theme
+    
+remote_theme: fastai/nbdev-jekyll-theme
