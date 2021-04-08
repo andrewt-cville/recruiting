@@ -13,7 +13,7 @@ entries:
       title: Get & Process All American data from Wikipedia
       url: AllAmericanNotebook.html
     - output: web,pdf
-      title: Title
+      title: Summarize
       url: Summarize.Rivals.html
     output: web
     title: recruiting
