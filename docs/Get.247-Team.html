@@ -1,6 +1,6 @@
 ---
 
-title: Title
+title: Get 247Sports Team Commitments
 
 
 keywords: fastai
@@ -36,13 +36,11 @@ nb_path: "j_notebooks/Get.247-Team.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
-<span class="kn">import</span> <span class="nn">requests</span>
-<span class="kn">import</span> <span class="nn">lxml</span>
-<span class="kn">import</span> <span class="nn">time</span>
-<span class="kn">import</span> <span class="nn">json</span>
-<span class="kn">import</span> <span class="nn">os.path</span>
-<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">path</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">years</span> <span class="o">=</span> <span class="n">cc</span><span class="o">.</span><span class="n">get_defYears</span><span class="p">()</span>
+<span class="n">headers</span><span class="o">=</span> <span class="n">cc</span><span class="o">.</span><span class="n">get_header</span><span class="p">()</span>
+<span class="n">schoolsList</span> <span class="o">=</span> <span class="n">cc</span><span class="o">.</span><span class="n">get_schoolsList</span><span class="p">()</span>
+
+<span class="n">conf</span> <span class="o">=</span> <span class="s1">&#39;acc&#39;</span>
 </pre></div>
 
     </div>
@@ -52,30 +50,12 @@ nb_path: "j_notebooks/Get.247-Team.ipynb"
 </div>
     {% endraw %}
 
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">years</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;2002&#39;</span><span class="p">,</span> <span class="s1">&#39;2003&#39;</span><span class="p">,</span> <span class="s1">&#39;2004&#39;</span><span class="p">,</span> <span class="s1">&#39;2005&#39;</span><span class="p">,</span> <span class="s1">&#39;2006&#39;</span><span class="p">,</span> <span class="s1">&#39;2007&#39;</span><span class="p">,</span> <span class="s1">&#39;2008&#39;</span><span class="p">,</span><span class="s1">&#39;2009&#39;</span><span class="p">,</span><span class="s1">&#39;2010&#39;</span><span class="p">,</span> <span class="s1">&#39;2011&#39;</span><span class="p">,</span> <span class="s1">&#39;2012&#39;</span><span class="p">,</span> <span class="s1">&#39;2013&#39;</span><span class="p">,</span> <span class="s1">&#39;2014&#39;</span><span class="p">,</span> <span class="s1">&#39;2015&#39;</span><span class="p">,</span> <span class="s1">&#39;2016&#39;</span><span class="p">,</span> <span class="s1">&#39;2017&#39;</span><span class="p">,</span> <span class="s1">&#39;2018&#39;</span><span class="p">,</span> <span class="s1">&#39;2019&#39;</span><span class="p">,</span> <span class="s1">&#39;2020&#39;</span><span class="p">]</span>
-<span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;user-agent&#39;</span><span class="p">:</span><span class="s1">&#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36&#39;</span><span class="p">}</span>
-<span class="n">confFolder</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;bigten&#39;</span><span class="p">]</span>
-<span class="n">teams</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;maryland&#39;</span><span class="p">,</span> <span class="s1">&#39;illinois&#39;</span><span class="p">,</span> <span class="s1">&#39;indiana&#39;</span><span class="p">,</span> <span class="s1">&#39;iowa&#39;</span><span class="p">,</span> <span class="s1">&#39;michigan-state&#39;</span><span class="p">,</span> <span class="s1">&#39;michigan&#39;</span><span class="p">,</span> <span class="s1">&#39;minnesota&#39;</span><span class="p">,</span> <span class="s1">&#39;nebraska&#39;</span><span class="p">,</span> <span class="s1">&#39;northwestern&#39;</span><span class="p">,</span> <span class="s1">&#39;ohio-state&#39;</span><span class="p">,</span> <span class="s1">&#39;penn-state&#39;</span><span class="p">,</span> <span class="s1">&#39;purdue&#39;</span><span class="p">,</span> <span class="s1">&#39;rutgers&#39;</span><span class="p">,</span> <span class="s1">&#39;wisconsin&#39;</span><span class="p">]</span>
-<span class="c1">#teams = [&#39;baylor&#39;, &#39;iowa-state&#39;, &#39;kansas&#39;, &#39;kansas-state&#39;, &#39;oklahoma&#39;, &#39;oklahoma-state&#39;, &#39;tcu&#39;, &#39;texas&#39;, &#39;texas-tech&#39;, &#39;west-virginia&#39;]</span>
-<span class="c1">#teams = [&#39;alabama&#39;, &#39;arkansas&#39;, &#39;auburn&#39;, &#39;florida&#39;, &#39;georgia&#39;, &#39;kentucky&#39;, &#39;lsu&#39;, &#39;mississippi-state&#39;, &#39;missouri&#39;, &#39;ole-miss&#39;, &#39;south-carolina&#39;, &#39;tennessee&#39;, &#39;texas-am&#39;, &#39;vanderbilt&#39;]</span>
-<span class="c1">#years = [&#39;2002&#39;, &#39;2003&#39;]</span>
-<span class="c1">#teams = [&#39;maryland&#39;, &#39;illinois&#39;]</span>
-</pre></div>
-
-    </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Cycle-through-each-school-by-conference">Cycle through each school by conference<a class="anchor-link" href="#Cycle-through-each-school-by-conference"> </a></h2>
 </div>
 </div>
-
 </div>
-    {% endraw %}
-
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -87,13 +67,14 @@ nb_path: "j_notebooks/Get.247-Team.ipynb"
 
 <span class="n">all_recruits</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">years</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">team</span> <span class="ow">in</span> <span class="n">teams</span><span class="p">:</span>
-        <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://247sports.com/college/</span><span class="si">{}</span><span class="s1">/Season/</span><span class="si">{}</span><span class="s1">-Football/Commits/&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">team</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="n">url</span><span class="p">)</span>
-        <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;..//html//247//&quot;</span> <span class="o">+</span> <span class="n">confFolder</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;//teams//&quot;</span> <span class="o">+</span> <span class="n">team</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="s2">&quot;.html&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">write_file</span><span class="p">:</span>
-            <span class="n">write_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">school</span> <span class="ow">in</span> <span class="n">schoolsList</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">school</span><span class="p">[</span><span class="s1">&#39;conference&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">conf</span><span class="p">):</span>
+            <span class="n">url</span> <span class="o">=</span> <span class="n">cc</span><span class="o">.</span><span class="n">create_url247</span><span class="p">(</span><span class="s1">&#39;team&#39;</span><span class="p">,</span> <span class="n">school</span><span class="p">[</span><span class="s1">&#39;247&#39;</span><span class="p">],</span> <span class="n">y</span><span class="p">)</span>
+            <span class="c1">#r = requests.get(url, headers=headers)</span>
+            <span class="c1">#with open(&quot;..//html//247//&quot; + conf + &quot;//teams//&quot; + school[&#39;247&#39;] + &quot;_&quot; + y + &quot;.html&quot;, &quot;w&quot;) as write_file:</span>
+            <span class="c1">#    write_file.write(r.text)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">school</span><span class="p">[</span><span class="s1">&#39;247&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -106,7 +87,8 @@ nb_path: "j_notebooks/Get.247-Team.ipynb"
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>https://247sports.com/college/maryland/Season/2002-Football/Commits/
+<pre>boston-college: 2002
+clemson: 2002
 </pre>
 </div>
 </div>
@@ -117,10 +99,10 @@ nb_path: "j_notebooks/Get.247-Team.ipynb"
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-3-2d5b4e824a16&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">     10</span>         <span class="ansi-green-fg">with</span> open<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;..//html//247//&#34;</span> <span class="ansi-blue-fg">+</span> confFolder<span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34;//teams//&#34;</span> <span class="ansi-blue-fg">+</span> team <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34;_&#34;</span> <span class="ansi-blue-fg">+</span> y <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34;.html&#34;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;w&#34;</span><span class="ansi-blue-fg">)</span> <span class="ansi-green-fg">as</span> write_file<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">     11</span>             write_file<span class="ansi-blue-fg">.</span>write<span class="ansi-blue-fg">(</span>r<span class="ansi-blue-fg">.</span>text<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-fg">---&gt; 12</span><span class="ansi-red-fg">         </span>time<span class="ansi-blue-fg">.</span>sleep<span class="ansi-blue-fg">(</span><span class="ansi-cyan-fg">6</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">&lt;ipython-input-3-766ad1bd26d3&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">     11</span>             <span class="ansi-red-fg">#    write_file.write(r.text)</span>
+<span class="ansi-green-intense-fg ansi-bold">     12</span>             print<span class="ansi-blue-fg">(</span>school<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;247&#39;</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#39;: &#39;</span> <span class="ansi-blue-fg">+</span> str<span class="ansi-blue-fg">(</span>y<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">---&gt; 13</span><span class="ansi-red-fg">             </span>time<span class="ansi-blue-fg">.</span>sleep<span class="ansi-blue-fg">(</span><span class="ansi-cyan-fg">4</span><span class="ansi-blue-fg">)</span>
 
 <span class="ansi-red-fg">KeyboardInterrupt</span>: </pre>
 </div>
