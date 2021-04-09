@@ -1,7 +1,7 @@
 {
   "recruiting": {
     "Overview": "/",
-    "Get & Process All American data from Wikipedia": "AllAmericanNotebook.html",
-    "Summarize": "Summarize.Rivals.html"
+    "Get & Process All American data from Wikipedia": "/AllAmericanNotebook.html",
+    "Summarize": "/Summarize.Rivals.html"
   }
 }
